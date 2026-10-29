@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sharma Family//Wedding Programme//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Shivam & Mahima - Wedding Programme
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:2474cf79-0e26-5402-be31-109924f10e59
+DTSTAMP:20261029T193411Z
+DTSTART:20261119T053000Z
+SUMMARY:Haldi & Ghritpaan - Shivam & Mahima
+DESCRIPTION:The Sharma family invites you and your family.\nTurmeric\, laug
+ hter and family blessings for Shivam's new beginning.\nThursday\, 19 Novem
+ ber 2026\, 11:00 AM onwards IST\nhttps://maps.app.goo.gl/WKb2kTbb1CxqPPaP8
+LOCATION:Shubham Farm Club House\, Jodhpur
+URL:https://maps.app.goo.gl/WKb2kTbb1CxqPPaP8
+END:VEVENT
+BEGIN:VEVENT
+UID:4b007800-7109-58ed-82b8-c39e29335566
+DTSTAMP:20261029T193411Z
+DTSTART:20261119T133000Z
+SUMMARY:Sangeet - Shivam & Mahima
+DESCRIPTION:The Sharma family invites you and your family.\nAn evening of m
+ usic and dance to celebrate Shivam and Mahima.\nThursday\, 19 November 202
+ 6\, 7:00 PM onwards IST\nhttps://maps.app.goo.gl/WKb2kTbb1CxqPPaP8
+LOCATION:Shubham Farm Club House\, Jodhpur
+URL:https://maps.app.goo.gl/WKb2kTbb1CxqPPaP8
+END:VEVENT
+BEGIN:VEVENT
+UID:e70e2bd9-d83e-587f-acd8-0ab5023c2116
+DTSTAMP:20261029T193411Z
+DTSTART:20261120T110000Z
+SUMMARY:Baraat Prasthan - Shivam & Mahima
+DESCRIPTION:The Sharma family invites you and your family.\nThe family sets
+  off from Jodhpur with Shivam's baraat\, filled with music and joy.\nFrida
+ y\, 20 November 2026\, 4:30 PM · from Jodhpur IST\nhttps://maps.app.goo.g
+ l/WKb2kTbb1CxqPPaP8
+LOCATION:Shubham Farm Club House\, Jodhpur
+URL:https://maps.app.goo.gl/WKb2kTbb1CxqPPaP8
+END:VEVENT
+BEGIN:VEVENT
+UID:029791c7-b88c-5c0d-949f-3dcf177fc143
+DTSTAMP:20261029T193411Z
+DTSTART:20261121T060000Z
+SUMMARY:Sagai - Shivam & Mahima
+DESCRIPTION:The Sharma family invites you and your family.\nTwo rings\, one
+  promise: Shivam and Mahima's journey together begins.\nSaturday\, 21 Nove
+ mber 2026\, 11:30 AM · The Ring Ceremony IST\nhttps://maps.app.goo.gl/15R
+ 5EYXrpbmKtAaZ7
+LOCATION:Kanha Shree Garden & Resorts\, Indore
+URL:https://maps.app.goo.gl/15R5EYXrpbmKtAaZ7
+END:VEVENT
+BEGIN:VEVENT
+UID:78e07dee-acfa-5663-91ed-bc5acba650bf
+DTSTAMP:20261029T193411Z
+DTSTART:20261121T103000Z
+SUMMARY:Ghudchadi & Baraat - Shivam & Mahima
+DESCRIPTION:The Sharma family invites you and your family.\nJoin the family
+  in Shivam's joyful wedding procession.\nSaturday\, 21 November 2026\, 4:0
+ 0 PM IST\nhttps://maps.app.goo.gl/15R5EYXrpbmKtAaZ7
+LOCATION:Kanha Shree Garden & Resorts\, Indore
+URL:https://maps.app.goo.gl/15R5EYXrpbmKtAaZ7
+END:VEVENT
+BEGIN:VEVENT
+UID:79cf5d29-3a88-50cd-a2cb-297772328301
+DTSTAMP:20261029T193411Z
+DTSTART:20261121T123000Z
+SUMMARY:Varmala - Shivam & Mahima
+DESCRIPTION:The Sharma family invites you and your family.\nTwo garlands\, 
+ two hearts: a beautiful beginning for Shivam and Mahima.\nSaturday\, 21 No
+ vember 2026\, 6:00 PM IST\nhttps://maps.app.goo.gl/15R5EYXrpbmKtAaZ7
+LOCATION:Kanha Shree Garden & Resorts\, Indore
+URL:https://maps.app.goo.gl/15R5EYXrpbmKtAaZ7
+END:VEVENT
+BEGIN:VEVENT
+UID:9e2684a2-d2f2-5ea6-86cc-79ef456eb2b0
+DTSTAMP:20261029T193411Z
+DTSTART:20261121T153000Z
+SUMMARY:Pheras - Shivam & Mahima
+DESCRIPTION:The Sharma family invites you and your family.\nSeven sacred st
+ eps\, with the family's blessings for Shivam and Mahima.\nSaturday\, 21 No
+ vember 2026\, 9:00 PM IST\nhttps://maps.app.goo.gl/15R5EYXrpbmKtAaZ7
+LOCATION:Kanha Shree Garden & Resorts\, Indore
+URL:https://maps.app.goo.gl/15R5EYXrpbmKtAaZ7
+END:VEVENT
+BEGIN:VEVENT
+UID:afce1bf2-41c9-53eb-8fd4-bd77348f601f
+DTSTAMP:20261029T193411Z
+DTSTART:20261123T123000Z
+SUMMARY:Reception - Shivam & Mahima
+DESCRIPTION:The Sharma family invites you and your family.\nJoin the family
+  in celebrating Shivam and Mahima as they begin their married life.\nMonda
+ y\, 23 November 2026\, 6:00 PM onwards IST\nhttps://maps.app.goo.gl/WKb2kT
+ bb1CxqPPaP8
+LOCATION:Shubham Farm Club House\, Jodhpur
+URL:https://maps.app.goo.gl/WKb2kTbb1CxqPPaP8
+END:VEVENT
+END:VCALENDAR

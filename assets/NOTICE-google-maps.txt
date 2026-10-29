@@ -1,0 +1,3 @@
+Google Maps location-pin artwork
+Source: https://fonts.gstatic.com/s/i/productlogos/maps/v6/192px.svg
+The original asset is served locally, without modification, as an icon linking each venue to Google Maps.

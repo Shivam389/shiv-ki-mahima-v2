@@ -1,0 +1,23 @@
+{
+  "tool": "Built-in image_gen",
+  "date": "2026-10-30",
+  "purpose": "Clean two existing invitation illustrations and add distinct Pheras and Reception artwork.",
+  "assets": [
+    {
+      "file": "art-sangeet-clean.png",
+      "prompt": "Use case: precise-object-edit. Edit target: the attached Sangeet wedding invitation illustration. Make one careful cleanup only: remove every fragment of cropped golden lettering or text at the very bottom below the couple's flowers and dress. Complete the small lower floral flourish elegantly so the illustration ends cleanly, with a little transparent breathing room. Preserve the dancing couple, their exact purple lehenga and dark suit, poses, gold embroidery, disco ball, music notes, flowers, composition and proportions. Preserve the original fine painted invitation illustration style. Background must be genuinely transparent around the complete scene, with clean alpha edges and no opaque cream rectangle. No words, letters, numbers, logos, labels or watermarks anywhere. Return a complete single illustration, not a mockup or card."
+    },
+    {
+      "file": "art-baraat-clean.png",
+      "prompt": "Use case: precise-object-edit. Edit target: the attached Indian Baraat invitation illustration. Make one careful cleanup only: remove all cropped golden lettering or text fragments at the bottom below the horse and floral accents. Finish the lower flowers and base naturally with a little transparent breathing room. Preserve the groom on the white horse, umbrella, musicians, faces, all clothing, their poses, maroon and ivory colours, gold embroidery, flowers, composition, square proportions and original painted illustration style. Keep all people and horse fully visible. Use genuine transparency around the complete scene with clean alpha edges, no opaque cream rectangle. No words, letters, numbers, logos, labels or watermarks anywhere. Return the single complete illustration, not a mockup or invitation page."
+    },
+    {
+      "file": "art-pheras-ceremony.png",
+      "prompt": "Use case: illustration-story. Create a NEW separate Pheras illustration for an Indian wedding invitation. The attached image is a STYLE and WARDROBE reference only: retain the soft painted romantic detail, ivory and gold groom's sherwani with peach turban, bride's blush pink embroidered lehenga, and delicate pink, cream and green florals. New scene: the bride and groom taking their sacred wedding steps together around a small traditional agni fire in a low square havan kund, under a beautiful ivory floral mandap. Their garments are joined with a traditional wedding knot. Full figures and the complete mandap, graceful natural posture, respectful traditional Indian ceremony, warm sacred golden firelight. Portrait composition about 4:5, visually clear on a mobile screen. Arrange a self-contained floral arch, couple and small fire with softly finished outer edges and genuine transparent background around the scene; no rectangular sky or backdrop. Do not repeat the garland-exchange pose. No words, letters, dates, logos or watermarks. This is decorative invitation art, not a photograph of the real venue. Return only the illustration."
+    },
+    {
+      "file": "art-reception-evening.png",
+      "prompt": "Use case: illustration-story. Create a NEW separate evening Reception illustration for an Indian wedding invitation. Attached image is a STYLE and COUPLE WARDROBE reference only. Use the same delicate painted romantic invitation-art style, an adult Indian couple in an ivory-gold embroidered sherwani and blush-pink lehenga. New scene: the happy newlyweds standing side by side welcoming guests on a small elegant reception stage, under a complete ornamental gold arch with pink, cream and plum florals, soft hanging warm fairy lights and tasteful golden lanterns. Evening mood in plum, mauve, blush and warm gold, distinct from a wedding ritual or palace photograph. Full figures, faces softly rendered, poised celebratory posture, portrait composition about 4:5 that reads clearly on a mobile screen. Self-contained stage with a few floral and lantern accents; genuine transparent background around the whole illustration, smooth natural alpha edges, no opaque rectangular sky. No fire ritual, no garland-exchange pose, no disco dance, no text, words, dates, logos or watermarks. Decorative illustration, not a real venue photo. Return only the illustration."
+    }
+  ]
+}
