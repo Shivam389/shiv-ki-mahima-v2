@@ -1,8 +1,13 @@
 {
   "tool": "Built-in image_gen",
   "date": "2026-10-30",
-  "purpose": "Clean two existing invitation illustrations, add distinct Pheras and Reception artwork, and replace the Baraat Prasthan departure scene.",
+  "purpose": "Invitation illustration revisions, ceremony artwork and transparent-background adaptations.",
   "assets": [
+    {
+      "file": "art-sagai-ring-ceremony.png",
+      "runtimeFile": "art-sagai-ring-ceremony.webp",
+      "prompt": "Use case: illustration-story. Create a polished NEW Sagai / engagement ring-ceremony illustration for a traditional Indian wedding invitation. Image 1 is a reference for the ring-exchange pose and the cream-and-pink wardrobe. Image 2 is a reference for the refined painted floral invitation-art style and clean transparent cutout treatment. An adult Indian groom in an elegant ivory-gold sherwani, without a turban, gently places a ring onto the bride's left-hand ring finger. The adult bride wears a blush-pink embroidered lehenga and graceful dupatta. Show both full figures with natural proportions, softly rendered faces, clear believable hands and an intimate warm expression. Delicate pink and cream flowers, restrained green foliage and a fine gold/floral arch frame the couple. A small natural petal-and-flower base under their feet; soft late-morning lighting matching an 11:30 AM engagement. The complete couple and floral frame should fill most of a balanced portrait canvas about 4:5 with a modest transparent margin, no cropped heads, feet or floral edges. This must be a self-contained transparent PNG cutout: genuine alpha in all empty spaces, through the arch and outside the artwork. No opaque pink rectangle, no coloured backdrop, no garden scenery, no background glow. Keep the style coherent with romantic pastel Indian wedding invitation illustrations. No garland-exchange pose, no wedding fire ritual, no floating giant rings, no words, lettering, dates, signs, logos or watermark. Return only the complete illustration, not a card page or mockup."
+    },
     {
       "file": "art-varmala-transparent.png",
       "runtimeFile": "art-varmala-transparent.webp",
