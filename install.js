@@ -37,6 +37,7 @@
   });
   document.getElementById('close-install-help').addEventListener('click',()=>help.close());
   help.addEventListener('click',event=>{if(event.target===help){const r=help.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)help.close();}});
+  function prepareOffline(){
   if('serviceWorker' in navigator&&window.isSecureContext){
     navigator.serviceWorker.register('./sw.js',{scope:'./',updateViaCache:'none'})
       .then(()=>navigator.serviceWorker.ready)
@@ -47,4 +48,12 @@
       .then(()=>{status.textContent='Invitation available offline';})
       .catch(()=>{status.textContent='Open the invitation while connected';});
   }else status.textContent='';
+  }
+  // Let the envelope, fonts and first screen finish before background caching.
+  const queueOffline=()=>{
+    if('requestIdleCallback' in window)requestIdleCallback(prepareOffline,{timeout:2500});
+    else setTimeout(prepareOffline,1200);
+  };
+  if(document.readyState==='complete')queueOffline();
+  else window.addEventListener('load',queueOffline,{once:true});
 })();

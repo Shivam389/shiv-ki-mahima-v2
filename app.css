@@ -3,35 +3,35 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(assets/font-1.ttf) format('truetype');
+  src: url(assets/font-1.woff) format('woff');
 }
 @font-face {
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(assets/font-2.ttf) format('truetype');
+  src: url(assets/font-2.woff) format('woff');
 }
 @font-face {
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(assets/font-3.ttf) format('truetype');
+  src: url(assets/font-3.woff) format('woff');
 }
 @font-face {
   font-family: 'Great Vibes';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(assets/font-4.ttf) format('truetype');
+  src: url(assets/font-4.woff) format('woff');
 }
 @font-face {
   font-family: 'Tiro Devanagari Hindi';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(assets/font-5.ttf) format('truetype');
+  src: url(assets/font-5.woff) format('woff');
 }
 
 
@@ -432,7 +432,7 @@ html,body{height:100%;height:100dvh}
 .date-reveal-button:disabled{color:#45676b;text-decoration:none;cursor:default}
 .ev{padding:42px 18px 66px;height:100svh;min-height:720px;display:flex;flex-direction:column;align-items:center;gap:0}
 /* A shared, cached wedding-garden image sits beneath a stronger colour tint. */
-.scene>.event-backdrop{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;contain:paint}
+.scene>.event-backdrop{display:block;position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;contain:paint}
 .event-backdrop-image{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:50% 65%;filter:blur(20px) saturate(.65);opacity:var(--backdrop-image-opacity,.24);transform:scale(1.12)}
 .event-backdrop:after{content:'';position:absolute;inset:0;z-index:1;background:var(--scene-gradient);opacity:var(--backdrop-tint-opacity,.58);pointer-events:none}
 .scene .event-content{width:100%;flex-shrink:0;display:flex;flex-direction:column;align-items:center;z-index:4}

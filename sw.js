@@ -1,11 +1,19 @@
-const CACHE_NAME='shivam-mahima-fc6e5861a3430882';
-const PRECACHE=["./", "index.html", "app.css", "invitation.js", "install.js", "manifest.webmanifest", "wedding-programme.ics", "assets/art-baraat-clean.webp", "assets/art-baraat-prasthan-bus.webp", "assets/art-pheras-ceremony.webp", "assets/art-reception-evening.webp", "assets/art-sagai-ring-ceremony.webp", "assets/art-sangeet-clean.webp", "assets/art-varmala-transparent.webp", "assets/artwork-notes.json", "assets/envelope.jpg", "assets/font-1.ttf", "assets/font-2.ttf", "assets/font-3.ttf", "assets/font-4.ttf", "assets/font-5.ttf", "assets/fonts.css", "assets/google-maps-pin.svg", "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png", "assets/icon-maskable.png", "assets/icon.svg", "assets/img_ganesh.jpg", "assets/img_haldi.jpg", "assets/img_palace.jpg", "assets/LICENSE-cormorantgaramond.txt", "assets/LICENSE-greatvibes.txt", "assets/LICENSE-tirodevanagarihindi.txt", "assets/manifest.json", "assets/mbot.svg", "assets/mtop.svg", "assets/music.mp3", "assets/NOTICE-google-maps.txt", "assets/orn.svg", "assets/pattern.svg", "assets/sprig.svg", "assets/topper_departure.svg", "assets/topper_sagai.svg", "assets/topper_varmala.svg"];
+const CACHE_NAME='shivam-mahima-ac3ddb784ee7a6a0';
+const PRECACHE=["./", "index.html", "app.d6d9c2342d6f.css", "invitation.fe9e36ee94c2.js", "install.0f0f29a1eb2a.js", "manifest.webmanifest", "wedding-programme.ics", "assets/art-baraat-clean-mobile.webp", "assets/art-baraat-prasthan-bus-mobile.webp", "assets/art-pheras-ceremony-mobile.webp", "assets/art-reception-evening-mobile.webp", "assets/art-sagai-ring-ceremony-mobile.webp", "assets/art-sangeet-clean-mobile.webp", "assets/art-varmala-transparent-mobile.webp", "assets/envelope-mobile.webp", "assets/font-1.woff", "assets/font-2.woff", "assets/font-3.woff", "assets/font-4.woff", "assets/font-5.woff", "assets/google-maps-pin.svg", "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png", "assets/icon-maskable.png", "assets/img_ganesh-mobile.webp", "assets/img_haldi-mobile.webp", "assets/img_palace-mobile.webp", "assets/LICENSE-cormorantgaramond.txt", "assets/LICENSE-greatvibes.txt", "assets/LICENSE-tirodevanagarihindi.txt", "assets/manifest.json", "assets/mbot.svg", "assets/mtop.svg", "assets/music.mp3", "assets/NOTICE-google-maps.txt", "assets/orn.svg", "assets/pattern.svg", "assets/sprig.svg", "assets/topper_departure.svg", "assets/topper_sagai.svg", "assets/topper_varmala.svg"];
 const ROOT=new URL('./',self.location.href);
 const INDEX=new URL('index.html',ROOT).href;
 
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE_NAME);
-  await cache.addAll(PRECACHE);
+  // Cache the shell first. Limit large-asset downloads so they do not compete
+  // with the first envelope tap, foreground art or music on a slow connection.
+  const shell=PRECACHE.filter(file=>!file.startsWith('assets/'));
+  const artwork=PRECACHE.filter(file=>file.startsWith('assets/'));
+  await cache.addAll(shell);
+  let next=0;
+  await Promise.all([0,1].map(async()=>{
+    while(next<artwork.length)await cache.add(artwork[next++]);
+  }));
   await self.skipWaiting();
 })()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{
@@ -46,7 +54,7 @@ self.addEventListener('fetch',event=>{
         return new Response(cached.body,{status:cached.status,statusText:cached.statusText,headers});
       }
     }
-    const cached=await cache.match(request,{ignoreSearch:true});
+    const cached=await cache.match(request);
     if(cached)return rangeResponse(request,cached);
     return fetch(request);
   })());
